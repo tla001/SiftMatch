@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/9/9 8:47:15。
+     1>项目“d:\documents\visual studio 2013\Projects\SiftMatch\SiftMatch\SiftMatch.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\SiftMatch.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt xform.c
+         xform.c
+     1>d:\documents\visual studio 2013\projects\siftmatch\siftmatch\xform.c(94): warning C4087: “rand”: 用“void”参数列表声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\documents\visual studio 2013\Projects\SiftMatch\Debug\SiftMatch.exe" /INCREMENTAL /NOLOGO opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\documents\visual studio 2013\Projects\SiftMatch\Debug\SiftMatch.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\documents\visual studio 2013\Projects\SiftMatch\Debug\SiftMatch.lib" /MACHINE:X86 Debug\imgfeatures.obj
+         Debug\kdtree.obj
+         Debug\match.obj
+         Debug\minpq.obj
+         Debug\sift.obj
+         Debug\siftfeat.obj
+         Debug\utils.obj
+         Debug\xform.obj
+         SiftMatch.vcxproj -> d:\documents\visual studio 2013\Projects\SiftMatch\Debug\SiftMatch.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\SiftMatch.tlog\unsuccessfulbuild”。
+         正在对“Debug\SiftMatch.tlog\SiftMatch.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“d:\documents\visual studio 2013\Projects\SiftMatch\SiftMatch\SiftMatch.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.35
